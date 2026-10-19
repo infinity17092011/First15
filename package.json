@@ -1,0 +1,19 @@
+{
+  "name": "todays-15-backend",
+  "version": "1.0.0",
+  "description": "Backend for Today's 15: PayPal subscription verification and AI workout planning",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.12.0"
+  }
+}
